@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM arm64v8/alpine:3.7
 MAINTAINER James Phillips <james@hashicorp.com> (@slackpad)
 
 # This is the release of Consul to pull in.
