@@ -1,3 +1,5 @@
+# This is an arm64 targetting build of the official Consul sources.  No other modifications made.
+
 # Consul Official Image Build
 
 The version of this hosted on [HashiCorp's Docker Hub for Consul](https://hub.docker.com/r/hashicorp/consul/)
