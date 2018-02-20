@@ -1,8 +1,8 @@
-FROM arm64v8/alpine:3.7
+FROM multiarch/alpine:arm64-latest-stable
 MAINTAINER James Phillips <james@hashicorp.com> (@slackpad)
 
 # This is the release of Consul to pull in.
-ENV CONSUL_VERSION=1.0.3
+ENV CONSUL_VERSION=1.0.6
 
 # This is the location of the releases.
 ENV HASHICORP_RELEASES=https://releases.hashicorp.com
